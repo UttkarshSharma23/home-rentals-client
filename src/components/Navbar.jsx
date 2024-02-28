@@ -60,7 +60,7 @@ const Navbar = () => {
             <Person sx={{ color: variables.darkgrey }} />
           ) : (
             <img
-              src={`https://complete-food-backend.onrender.com/${user.profileImagePath.replace(
+              src={`https://home-rentals-backend.onrender.com/${user.profileImagePath.replace(
                 "public",
                 ""
               )}`}

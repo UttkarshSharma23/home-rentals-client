@@ -16,7 +16,7 @@ const LoginPage = () => {
     e.preventDefault()
 
     try {
-      const response = await fetch ("https://complete-food-backend.onrender.com/auth/login", {
+      const response = await fetch ("https://home-rentals-backend.onrender.com/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
